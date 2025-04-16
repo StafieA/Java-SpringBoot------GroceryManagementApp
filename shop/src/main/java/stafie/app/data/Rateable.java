@@ -1,4 +1,4 @@
-package data;
+package stafie.app.data;
 
 @FunctionalInterface
 public interface Rateable<T> {

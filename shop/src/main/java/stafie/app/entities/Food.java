@@ -1,8 +1,8 @@
-package entities;
+package stafie.app.entities;
 
 
 
-import data.Rating;
+import stafie.app.data.Rating;
 import jakarta.persistence.Entity;
 
 import java.math.BigDecimal;

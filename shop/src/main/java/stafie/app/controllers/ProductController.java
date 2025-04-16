@@ -1,13 +1,13 @@
-package controllers;
+package stafie.app.controllers;
 
 
 
 
-import data.Rating;
-import entities.Product;
+import stafie.app.data.Rating;
+import stafie.app.entities.Product;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import services.ProductService;
+import stafie.app.services.ProductService;
 
 
 import java.math.BigDecimal;
@@ -15,7 +15,7 @@ import java.time.LocalDate;
 
 @RestController
 @RequestMapping("/shop")
-public class ShopController {
+public class ProductController {
 
     @Autowired
     private ProductService productService;

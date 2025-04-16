@@ -1,16 +1,17 @@
-package entities;
+package stafie.app.entities;
 
 
-import data.Rateable;
-import data.Rating;
+import stafie.app.data.Rateable;
+import stafie.app.data.Rating;
 import jakarta.persistence.*;
 import java.math.BigDecimal;
 import java.util.Objects;
 
-import static data.Rating.NOT_RATED;
+import static stafie.app.data.Rating.NOT_RATED;
 import static java.math.RoundingMode.HALF_UP;
 
 @Entity
+@Table(name = "products")
 public abstract class Product implements Rateable<Product> {
 
     public static final BigDecimal DISCOUNT_RATE = BigDecimal.valueOf(0.1);

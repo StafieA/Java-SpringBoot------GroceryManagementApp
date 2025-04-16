@@ -1,14 +1,14 @@
-package services;
+package stafie.app.services;
 
 
 
-import data.Rating;
-import entities.Drink;
-import entities.Food;
-import entities.Product;
+import stafie.app.data.Rating;
+import stafie.app.entities.Drink;
+import stafie.app.entities.Food;
+import stafie.app.entities.Product;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import repo.ProductRepository;
+import stafie.app.repo.ProductRepository;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;

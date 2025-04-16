@@ -1,7 +1,7 @@
-package repo;
+package stafie.app.repo;
 
 
-import entities.Product;
+import stafie.app.entities.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface ProductRepository extends JpaRepository<Product, Integer> {
